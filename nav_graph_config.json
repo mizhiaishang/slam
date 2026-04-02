@@ -1,0 +1,31 @@
+{
+  "build": {
+    "input_dir": ".",
+    "output": "nav_graph.pkl",
+    "recursive": false,
+    "overwrite": false,
+    "append": false,
+    "topology_key_field": "class_node",
+    "merge_distance": 1.0,
+    "distance_dims": 2,
+    "waypoint_cell_size": 2.0,
+    "object_cell_size": 1.0,
+    "topology_cell_size": 4.0,
+    "min_confidence": 0.0,
+    "extra_dynamic_classes": ""
+  },
+  "stats": {
+    "graph": "nav_graph.pkl"
+  },
+  "nearby": {
+    "graph": "nav_graph.pkl",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "radius": 5.0,
+    "topology_limit": 5,
+    "waypoint_limit": 5,
+    "object_limit": 10,
+    "include_dynamic": false
+  }
+}
